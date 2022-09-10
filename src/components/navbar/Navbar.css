@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #42855B;
+}
+
+nav a {
+  color: white;
+}
+
+.nav-links {
+  padding: 0 1.5em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 0.8em;
+}
+
+.logo {
+  height: 40px;
+}

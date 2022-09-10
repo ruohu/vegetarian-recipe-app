@@ -1,0 +1,17 @@
+.recipe-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recipe-list-container h2 {
+  text-align: center;
+}
+
+.recipe-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
+  grid-gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
