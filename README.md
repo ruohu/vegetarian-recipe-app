@@ -24,14 +24,13 @@
 </details>
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 Vegetarian Recipes is a simple React application that allows the user to search vegetarian recipes, display random vegetarian recipes and view recipe's details.
 
 ### Live Demo
 
-Follow the link and try the app online: 
+Follow the link and try the app online: https://vegetarian-recipes.netlify.app/
 
 
 ### Built With
@@ -42,7 +41,6 @@ Follow the link and try the app online:
 * [React Router](https://reactrouter.com/en/v6.3.0/getting-started/overview)
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 Follow these simple steps to get a local copy and run it.
@@ -51,22 +49,25 @@ Follow these simple steps to get a local copy and run it.
 
 Running the application requires [Node](https://nodejs.org/en/) to be installed on your operating system.
 
-You can then install the latest version of npm from your terminal with the following command:
+You can install the latest version of npm from your terminal with the following command:
 ```sh
   npm install npm@latest -g
 ```
 
 ### Installation
 
-1. Clone the repo locally with the git command
+1. Clone the repo locally with git clone command
    ```sh
-   git clone https://github.com/ruohu/vegetarian-recipe-app.git
+    git clone https://github.com/ruohu/vegetarian-recipe-app.git
    ```
 2. Install NPM packages
    ```sh
-   npm install
+    npm install
    ```
 3. Get you API key from [Spoonacular API](https://spoonacular.com/food-api) and enter it in the .env.example file
+   ```sh
+    REACT_APP_API_KEY="insert your API key here"
+   ```
 
 4. Rename the .env.example file to .env
 
@@ -76,13 +77,11 @@ You can then install the latest version of npm from your terminal with the follo
    ```
 
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License.
 
 
-<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
 * [Spoonacular API](https://spoonacular.com/food-api)
